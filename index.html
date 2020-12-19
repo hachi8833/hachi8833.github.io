@@ -12,9 +12,18 @@
       h2 {
         font-size: 30px;
       }
+      /* ヒーロースタイル */
+      .full-hero {
+        background-color: #c7dbfc;
+        height: 50vh;
+      }
       /* SNSスタイル */
       .social-link {
         color: #00f;
+        display: inline-block;
+      }
+      .show {
+        display: block;
       }
 
       /* バイオグラフィースタイル */
@@ -24,30 +33,34 @@
         border: 1px solid #000;
         width: 50%;
         margin: 10%;
+        font-size: 150%;
       }
       .bio-copy a {
         color: #0f0;
+        font-size: 150%;
       }
     </style>
   </head>
   <body>
-    <h1>I'm an h1</h1>
-    <ul>
-      <li>
-        <a href="https://example.com/">Link</a>
-      </li>
-      <li>
-        <a href="https://example.com/">Link</a>
-      </li>
-      <li>
-        <a href="https://example.com/">Link</a>
-      </li>
-    </ul>
+    <div class="full-hero hero-home">
+      <h1>I'm an h1</h1>
+      <ul>
+        <li>
+          <a href="https://example.com/" class="social-link">Link</a>
+        </li>
+        <li>
+          <a href="https://example.com/" class="social-link">Link</a>
+        </li>
+        <li>
+          <a href="https://example.com/" class="social-link">Link</a>
+        </li>
+      </ul>
+    </div>
     <h2>I'm an h2</h2>
     <div class="bio-wrapper">
       <div class="bio-box">
         <h3>Michael Hartl</h3>
-        <a href="https://twitter.com/mhartl" class="social-link">
+        <a href="https://twitter.com/mhartl" class="social-link show">
           here
         </a>
         <div class="bio-copy">
