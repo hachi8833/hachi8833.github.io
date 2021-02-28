@@ -145,12 +145,6 @@ a img {
 
 /* グローバルスタイル */
 
-html,
-body {
-    margin: 0;
-    padding: 0;
-}
-
 h1 {
     font-size: 7vw;
     margin-top: 0;
@@ -213,7 +207,6 @@ a {
 .bio-box {
     border: 1px solid black;
     box-sizing: border-box;
-    border-color: transparent black black transparent;
     float: left;
     font-size: 1rem;
     margin: 40px 1% 0;
