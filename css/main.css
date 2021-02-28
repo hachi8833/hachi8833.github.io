@@ -44,6 +44,14 @@ a {
     opacity: 0.5;
 }
 
+.header-nav>li:first-child a {
+    color: #ed6e2f;
+}
+
+.header-nav>li:first-child a:hover {
+    color: #000;
+}
+
 
 /* ヒーロースタイル */
 
@@ -82,6 +90,10 @@ a {
 .social-list>li {
     display: inline-block;
     margin: 0 0.5em;
+}
+
+.header-nav a:active {
+    color: #ed6e2f;
 }
 
 
