@@ -229,11 +229,11 @@ a {
     width: 100%;
 }
 
-.bio-copy {
-    font-size: 1em;
-    line-height: 1.5;
+.bio-box .social-link {
+    display: block;
+    margin: 2em 0 1em;
 }
 
-.bio-copy a {
-    color: green;
+.bio-copy {
+    font-size: 1em;
 }
