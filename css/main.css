@@ -24,6 +24,12 @@ h2~p {
 
 /* ヘッダースタイル */
 
+.header {
+    background-color: #aaa;
+    height: 300px;
+    width: 100%;
+}
+
 .header-nav {
     float: right;
     padding: 5.5vh 60px 0 0;
