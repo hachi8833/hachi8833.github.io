@@ -27,6 +27,7 @@ h2~p {
 .header {
     background-color: #aaa;
     height: 300px;
+    position: relative;
     width: 100%;
 }
 
@@ -68,7 +69,12 @@ h2~p {
 }
 
 .header-nav>li:first-child a:hover {
-    color: #000;
+    color: #fff;
+}
+
+.header-logo {
+    bottom: 50px;
+    position: absolute;
 }
 
 
