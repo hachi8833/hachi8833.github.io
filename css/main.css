@@ -131,12 +131,14 @@ h2~p {
 /* ヒーロースタイル */
 
 .full-hero {
+    background-color: #c7dbfc;
+    box-sizing: border-box;
     height: 100vh;
-}
-
-.hero-home {
+    padding-top: 10vh;
+  }
+  .hero-home {
     background-image: url(/images/shark.jpg);
-}
+  }
 
 /* SNSスタイル */
 
