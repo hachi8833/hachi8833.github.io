@@ -13,7 +13,8 @@ body {
 }
 
 .content-container {
-    flex: 1 1 auto;;
+    display: flex;
+    flex: 1 1 auto;
     padding-top: 10vh;
     width: 100%;
   }
@@ -140,9 +141,10 @@ h2~p {
     margin: 2em 1em 0;
 }
 
-.footer-nav a {
-    color: #ccc;
-}
+.col-three {
+    display: flex;
+    flex: 1;
+  }
 
 /* カラムスタイル */
 .col-three {
