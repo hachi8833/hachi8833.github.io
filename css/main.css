@@ -4,7 +4,10 @@ html {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     font-family: helvetica, arial, sans;
+    min-height: 100vh;
 }
 
 h1 {
