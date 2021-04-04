@@ -149,7 +149,6 @@ h2~p {
     background-size: cover;
     box-sizing: border-box;
     height: 100vh;
-    padding-top: 10vh;
   }
   .full-hero:after {
     bottom: 2vh;
