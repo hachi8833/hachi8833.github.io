@@ -515,6 +515,18 @@ h4 {
     left: auto;
   }
 
+    /* homeページスタイル */
+    .home-callout {
+      flex-direction: column;
+    }
+    .callout-copy {
+      flex: 1;
+    }
+    .bio-box {
+      float: none;
+      font-size: 1.3rem;
+      width: auto;
+    }
   /* ブログスタイル */
   .post-aside {
     display: none;
